@@ -1,16 +1,23 @@
 ### Hi there 👋
 
-<!--
-**messense/messense** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```rust
+struct Portfolio;
 
-Here are some ideas to get you started:
+impl Portfolio {
+    const NAME: &'static str = "messense";
+    const LOCATION: &'static str = "Shanghai, China";
+    const PROFILE: &'static str = "Python backend engineer";
+    const EXPERIENCE: &'static str = "5+ years";
+}
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+struct Skills;
+
+impl Skills {
+    const LANGUAGES: [&'static str; 5] = ["Python", "Rust", "JavaScript", "C/C++", "Kotlin/Java"];
+    const OPERATION_SYSTEMS: [&'static str; 3] = ["macOS", "Linux", "Windows"];
+    const STORAGES: [&'static str; 5] = ["PostgreSQL", "Elasticsearch", "MongoDB", "Redis", "MySQL"];
+    const MESSAGE_QUEUES: [&'static str; 3] = ["Kafka", "RocketMQ", "RabbitMQ"];
+    const WEB_FRAMEWORKS: [&'static str; 4] = ["Flask", "Django", "Actix-Web", "Rocket"];
+    const DEVOPS: [&'static str; 3] = ["Docker", "SaltStack", "Kubernetes"];
+}
+```
