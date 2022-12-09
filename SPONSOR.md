@@ -4,13 +4,15 @@
 
 1. [GitHub Sponsors](https://github.com/sponsors/messense)
 
-2. [爱发电](https://afdian.net/@messense)
+2. [ko-fi](https://ko-fi.com/messense)
 
-3. 微信支付
+3. [爱发电](https://afdian.net/@messense)
+
+4. 微信支付
 
 ![微信支付](images/wechat.jpg)
 
-4. 支付宝
+5. 支付宝
 
 ![支付宝](images/alipay.jpg)
 
